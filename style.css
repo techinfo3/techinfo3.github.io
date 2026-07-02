@@ -304,11 +304,11 @@ background-color:  rgb(241, 59, 3);
 .vf{
     font-size: 18px;
     margin-left: 20px;
-    text-align: center;
+    text-align: end;
 }
 #Contact{
   margin-top: -50px;
-  text-align: right;
+  text-align: start;
   padding: 10px; 
  }
 .foot{
@@ -336,13 +336,19 @@ font-weight: bold;
   margin-left: 40px;
   color: red;
 }
+.foot1{
+   margin-top: -50px;
+  text-align: right;
+  padding: 10px; 
+}
 
 @media screen and (max-width:768px){
 
   header{
     flex-direction:column;
     text-align:center;
-    padding:10px;
+    padding:80px;
+    width: 160%;
   }
 
   .logo{
@@ -368,6 +374,7 @@ font-weight: bold;
     flex-wrap:wrap;
     justify-content:center;
     gap:10px;
+    width: 140%;
   }
 
   .nav a{
@@ -480,13 +487,17 @@ font-weight: bold;
   header{
     flex-direction:column;
     text-align:center;
-    padding:10px;
+    padding: 10px;
+  
+   
+  
   }
 
   .logo{
     width:100px;
     height:100px;
     padding:5px;
+
   }
 
   .boy{
@@ -571,7 +582,7 @@ font-weight: bold;
 
   table{
     width:100%;
-    table-layout:fixed;
+   
   }
 
   td,th{
@@ -610,5 +621,7 @@ font-weight: bold;
   .e{
     padding-left: 5px;
   }
+
+    
   
 }
