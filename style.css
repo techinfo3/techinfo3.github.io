@@ -1,98 +1,71 @@
 
 
- .my{
-       background-color: rgb(85, 239, 8) ;
-            color: rgba(227, 214, 214, 0.786);
-           font-family: cursive;
-           font-style: italic;
-           text-decoration: underline overline line-through ;
-           text-decoration-color:  red;
-          text-decoration-style: dashed;
-     
-        }
-       
-
-.moving  {
-    position: relative;
-  animation: move 5s linear infinite;
-  font-size: 24px;
-  
-  background-color: rgb(96, 237, 8);
-  
-
+.dropdown{
+    position:relative;
+    display:inline-block;
 }
 
-
-  
-
-@keyframes move {
-  0% {
-   transform: translateX(100vw);    
- }
-100% {
-    transform: translateX(-100%);
-  }
-}
-.my{
-  animation: colorChange 5s linear infinite;
+.dropbtn{
+    background:none;
+    border:none;
+    color:white;
+    font-size:25px;
+    cursor:pointer;
 }
 
-@keyframes colorChange {
-  0% {
-    color: red;
-  }
-  25% {
-    color: blue;
-  }
-  50% {
-    color: green;
-  }
-  75% {
-    color: yellow;
-  }
-  100% {
-    color: red;
-  }
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background:#110000;
+    min-width:220px;
+    box-shadow:0 5px 10px rgba(0,0,0,.2);
+    z-index:999;
 }
-.close {
-  animation: colorChange 5s linear infinite;
+
+.dropdown-content a{
+    display:block;
+    color:black;
+    padding:10px;
+    text-decoration:none;
 }
-.close {
-  position: relative;
-  top: -60px; 
-  left: 430px; 
+
+.dropdown-content a:hover{
+    background:#f1f1f1;
 }
-.lorem {
-  border: 2px solid red ;
- 
-  overflow: auto ; 
-  width: 100px; 
-  height: 150px;
- word-break: break-all;
- white-space:normal;
+
+.show{
+    display:block;
 }
+
+
+
+
+
 .nav {
   background-color: rgb(11, 1, 1);
   margin: 0px;
   padding: 15px;
   display: flex;
   justify-content: space-around;
-  
+
 }
 
-body{
+
+body {
   max-width: 1300px;
   overflow-x: hidden;
   margin: auto;
-  padding: auto;
-  line-height:1.7;
+  padding: 0;
+  line-height: 1.7;
 }
-header{
+
+header {
   display: flex;
   background-color: aqua;
   align-items: center;
-  
+
 }
+
 .logo {
   border-radius: 60%;
   width: 180px;
@@ -101,319 +74,343 @@ header{
   margin: 5px;
 }
 
- .boy{
+.boy {
   color: rgb(238, 8, 8);
   padding: 0;
- margin: 0;
- flex: 1;
- position: relative;
- text-align: center;
-font-size: 70px;
-margin-top: 5px;
-padding-left: 80px;
- 
- }
- .Tbox{
+  margin: 0;
+  flex: 1;
+
+  text-align: center;
+  font-size: 70px;
+  margin-top: 5px;
+  padding-left: 80px;
+
+}
+
+.Tbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
- }
+}
+
 .com {
   color: black;
- 
+
   position: relative;
   font-size: 50px;
-  margin-top:  -30px;
+  margin-top: -30px;
   text-align: center;
   margin-left: 150px;
-  padding-right:100px;
- }
- .foot{
+  padding-right: 100px;
+}
+
+.foot {
   background-color: rgb(1, 11, 2);
   color: white;
   padding: 5px;
   margin-top: -15px;
   font-size: 30px;
- }
- #Contact{
-  margin-top: -50px;
-  text-align: right;
-  padding: 10px; 
- }
-.nav a{
+  display: flex;
+
+}
+
+.nav a {
   font-size: 25px;
   text-decoration: none;
   color: white;
 
 }
 
-.container{
+.container {
   display: flex;
-  margin-top: 5px; 
- 
- 
+  margin-top: 5px;
+
+
 
 
 }
 
-.containe{
+.containe {
   display: flex;
   max-width: 1100px;
   margin: auto;
-  padding: auto;
+  padding: 0;
   padding-bottom: 30px;
   padding-top: 10px;
-  
-}
- 
-.box{
 
- flex: 1;
+}
+
+.box {
+
+  flex: 1;
   border: 5px solid red;
   padding: 20px;
   box-sizing: border-box;
   margin-left: 10px;
 
-  
+
 }
 
-.hb{
+.hb {
   color: aqua;
   background-color: blue;
   text-align: center;
   font-size: 30px;
   margin: auto;
-  padding: auto;
+  padding: 0;
   max-width: 1300px;
-  
+
 }
-.lu{
- font-size:30px;
- color: rgb(3, 3, 244);
-padding: 10px;
+
+.lu {
+  font-size: 30px;
+  color: rgb(3, 3, 244);
+  padding: 10px;
 }
-a{
+
+a {
   color: blue;
   text-decoration: none;
 
 }
-a:hover{
+
+a:hover {
   color: rgb(255, 0, 0);
   text-decoration: underline;
 }
-.bold{
+
+.bold {
   background-color: rgb(6, 243, 69);
   font-style: italic;
   color: rgb(251, 250, 252);
   position: relative;
   padding-left: 15px;
- }
- 
-.bx{
+}
+
+.bx {
   flex: 1;
   border: 5px solid red;
   padding: 0%;
- 
-  
+
+
   box-sizing: border-box;
   margin-left: 10px;
-  }
-  .contain{
-   
+}
+
+.contain {
+
   display: flex;
   padding-bottom: 50px;
   padding-top: 10px;
-  
-  
-}
-  
 
-.bold{
-  animation: backgroundcolorChange 5s linear infinite;
-}
-@keyframes backgroundcolorChange {
-  0% {
-  background:   red;
-  }
-  25% {
-   background-color: blue;
-  }
-  50% {
-   background-color:  rgb(234, 8, 76);
-  }
-  75% {
-background-color:  rgb(241, 59, 3);
-  }
-  100% {
-    background-color:  rgb(10, 1, 1);
-  }
- 
-}
-.id{
-  color: rgb(243, 240, 238);
-  position: relative;
-  text-align: center;
-  animation: backgroundcolorChange 5s linear infinite;
-}
-@keyframes backgroundcolorChange {
-  0% {
-  background:   red;
-  }
- 5% {
-   background-color: rgb(1, 1, 17);
-  }
-}
-.nm{
-  color: rgb(0, 0, 9);
-  background-color: aqua;
-  padding-left: 15px;
-  font-size: 20px;
-}
- .topbar{
-  background-color: blue;
 
- }
- .SideMenu{
-  position: fixed;
-  height: 100%;
-  width: 0%;
-  top: 0;
-  background-color: rgb(245, 244, 245);
-  overflow-x: hidden;
-  transition: 0.5s;
+}
 
- }
- .SideMenu a {
-  display: block;
-  color: rgb(10, 1, 1);
+
+
+.na {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+
+
+}
+
+
+
+.na a {
   text-decoration: none;
-  font-size: 25px;
- }
- .close-btn{
-  color: rgb(10, 10, 10);
- }
- .menu-btn{
-  color: rgb(243, 6, 6);
- }
- 
- .fg{
-    font-size: 25px;
-    margin-top: -10px;
-    text-align: center;
+  color: white;
+  font-size: 20px;
+
 }
-.vf{
-    font-size: 18px;
-    margin-left: 20px;
-    text-align: end;
-}
-#Contact{
+
+
+
+#Contact {
   margin-top: -50px;
   text-align: start;
-  padding: 10px; 
- }
-.foot{
-  background-color: rgb(1, 11, 2);
-  color: white;
-  padding: 5px;
-  margin-top: -15px;
-  font-size: 25px;
- }
- .bd{
+  padding: 10px;
+}
+
+.bd {
   font-size: 30px;
   background-color: red;
   color: white;
   text-align: center;
- }
-.bc{
-font-size: 30px;
-position: relative;
-padding-left: 20px;
-font-weight: bold;
- }
- .dr{
+}
+
+.bc {
+  font-size: 30px;
+  position: relative;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.dr {
   font-size: 30px;
   font-weight: bold;
   margin-left: 40px;
   color: red;
 }
-.foot1{
-   margin-top: -50px;
+
+.foot1 {
+  margin-top: -50px;
   text-align: right;
-  padding: 10px; 
+  padding: 10px;
 }
-
-@media (max-width:768px){
-
-header{
-
-justify-content: flex-start;
-display: flex;
-}
-
-.logo{
-width:100px;
-height:100px;
-margin-top: -10px;
-
-
-}
-
-.boy{
-font-size:20px;
-padding-left:0;
-margin-top: -px;
-
-}
-
-.com{
-font-size:20px;
-margin:0;
-padding:0;
-margin-top: -10px;
-
-}
-
-.nav{
-
-
-gap:15px;
-display: flex;
-justify-content: center;
-}
-
-.nav a{
-font-size:15px;
-}
-
-.contain{
-flex-direction:column;
-}
-
-.bx{
-margin:10px;
-}
-
-.lu{
-font-size:18px;
-}
-
-.hb{
-font-size:22px;
-}
-
-#Contact{
-text-align:center;
-}
-
 .foot{
-font-size:18px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding:-20px;
+    background-color:rgb(1, 11, 2);
+    margin-top:-40px;
+}
+
+.left{
+    flex:1;
+}
+
+.middle{
+    flex:1;
+    text-align:center;
+   display: flex;
+   flex-direction: column;
+   margin-top: -28px;
+   color:aqua;
+   font-weight: bold;
+  
+}
+
+.right{
+    flex:1;
+    text-align:right;
+   
+
+}
+.rt{
+  padding-bottom: 70px;
+}
+
+
+.fg{
+  font-size: 26px;
+  margin-top: 50px;
+  margin-left: 20px;
+  color:aqua;
+   font-weight: bold
 }
 
 .vf{
-text-align:center;
-margin-left:0;
+    margin-right:0;
+    font-size:20px;
+    margin-left:20px;
+    margin-top:-20px;
+}
+.we{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color:aqua;
+   font-weight: bold
+}
+.na a{
+  font-size: 25px;
+}
+.na{
+display:flex;
+flex-direction:column;
+justify-content: flex-start;
+gap: 12px;
+ margin-top: -100px;
+}
+@media (max-width:768px) {
+
+  header {
+
+    justify-content: flex-start;
+    display: flex;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-top: -10px;
+
+
+  }
+
+  .boy {
+    font-size: 20px;
+    padding-left: 0;
+    margin-top: -px;
+
+  }
+
+  .com {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    margin-top: -10px;
+
+  }
+
+  .nav {
+
+
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav a {
+    font-size: 15px;
+  }
+
+  .contain {
+    flex-direction: column;
+  }
+
+  .bx {
+    margin: 10px;
+  }
+
+  .lu {
+    font-size: 18px;
+  }
+
+  .hb {
+    font-size: 22px;
+  }
+
+  #Contact {
+    text-align: center;
+  }
+
+  .foot {
+    font-size: 18px;
+  }
+
+  .vf {
+    text-align: center;
+    margin-left: 0;
+  }
 }
 
+.dropdown{
+    width:100%;
 }
 
- 
+.dropbtn{
+    font-size:18px;
+    padding:10px;
+}
+
+.dropdown-content{
+    position:static;
+    width:100%;
+}
+
+
