@@ -342,286 +342,68 @@ font-weight: bold;
   padding: 10px; 
 }
 
-@media screen and (max-width:768px){
+@media (max-width:768px){
 
-  header{
-    flex-direction:column;
-    text-align:center;
-    padding:80px;
-    width: 160%;
-  }
-
-  .logo{
-    width:100px;
-    height:100px;
-    padding:5px;
-  }
-
-  .boy{
-    font-size:22px;
-    padding-left:0;
-    margin:0;
-  }
-
-  .com{
-    font-size:16px;
-    margin:0;
-    padding:0;
-  }
-
-  .nav{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:10px;
-    width: 140%;
-  }
-
-  .nav a{
-    font-size:16px;
-  }
-
-  .bc{
-    font-size:16px;
-    padding:10px;
-  }
-
-  .container,
-  .cd{
-    flex-direction:column;
-  }
-
-  .box,
-  .bg{
-    width:100%;
-    margin-left:0;
-    margin-bottom:10px;
-  }
-
-  .MK{
-    font-size:16px;
-  }
-
-  .br{
-    font-size:18px;
-  }
-
-  .bd{
-    font-size:22px;
-  }
-
-  .hu{
-    font-size:20px;
-  }
-
-  .info{
-    width:100%;
-    margin-left:0;
-    overflow-x:auto;
-    display:block;
-  }
-
-  .b,
-  .d{
-    font-size:16px;
-    padding-left:5px;
-  }
-  
-
-  .c,
-  .e{
-    font-size:14px;
-    padding-left:5px;
-  }
-
-  .info a{
-    font-size:14px;
-    padding-left:0;
-  }
-
-  table{
-    width:100%;
-    table-layout:fixed;
-  }
-
-  td,th{
-    word-wrap:break-word;
-  }
-
-  .li{
-    font-size:18px;
-  }
-
-  .li a{
-    font-size:16px;
-  }
-
-  .fg{
-    font-size:20px;
-  }
-
-  .foot{
-    font-size:16px;
-    text-align:center;
-  }
-
-  #Contact{
-    text-align:center;
-    margin-top:0;
-  }
-
-  img{
-    max-width:100%;
-    height:auto;
-  }
-  .c{
-    padding-left: 5px;
-  }
-  .e{
-    padding-left: 5px;
-  }
-  
+header{
+flex-direction:column;
+text-align:center;
 }
-@media screen and (max-width:768px){
 
-  header{
-    flex-direction:column;
-    text-align:center;
-    padding: 10px;
-  
-   
-  
-  }
-
-  .logo{
-    width:100px;
-    height:100px;
-    padding:5px;
-
-  }
-
-  .boy{
-    font-size:22px;
-    padding-left:0;
-    margin:0;
-  }
-
-  .com{
-    font-size:16px;
-    margin:0;
-    padding:0;
-  }
-
-  .nav{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:10px;
-  }
-
-  .nav a{
-    font-size:16px;
-  }
-
-  .bc{
-    font-size:16px;
-    padding:10px;
-  }
-
-  .container,
-  .cd{
-    flex-direction:column;
-  }
-
-  .box,
-  .bg{
-    width:100%;
-    margin-left:0;
-    margin-bottom:10px;
-  }
-
-  .MK{
-    font-size:16px;
-  }
-
-  .br{
-    font-size:18px;
-  }
-
-  .bd{
-    font-size:22px;
-  }
-
-  .hu{
-    font-size:20px;
-  }
-
-  .info{
-    width:100%;
-    margin-left:0;
-    overflow-x:auto;
-    display:block;
-  }
-
-  .b,
-  .d{
-    font-size:16px;
-    padding-left:5px;
-  }
-
-  .c,
-  .e{
-    font-size:14px;
-    padding-left:5px;
-  }
-
-  .info a{
-    font-size:14px;
-    padding-left:0;
-  }
-
-  table{
-    width:100%;
-   
-  }
-
-  td,th{
-    word-wrap:break-word;
-  }
-
-  .li{
-    font-size:18px;
-  }
-
-  .li a{
-    font-size:16px;
-  }
-
-  .fg{
-    font-size:20px;
-  }
-
-  .foot{
-    font-size:16px;
-    text-align:center;
-  }
-
-  #Contact{
-    text-align:center;
-    margin-top:0;
-  }
-
-  img{
-    max-width:100%;
-    height:auto;
-  }
-  .c{
-    padding-left: 5px;
-  }
-  .e{
-    padding-left: 5px;
-  }
-
-    
-  
+.logo{
+width:100px;
+height:100px;
 }
+
+.boy{
+font-size:32px;
+padding-left:0;
+}
+
+.com{
+font-size:20px;
+margin:0;
+padding:0;
+}
+
+.nav{
+flex-direction:column;
+align-items:center;
+gap:10px;
+}
+
+.nav a{
+font-size:18px;
+}
+
+.contain{
+flex-direction:column;
+}
+
+.bx{
+margin:10px;
+}
+
+.lu{
+font-size:18px;
+}
+
+.hb{
+font-size:22px;
+}
+
+#Contact{
+text-align:center;
+}
+
+.foot{
+font-size:18px;
+}
+
+.vf{
+text-align:center;
+margin-left:0;
+}
+
+}
+
+ 
