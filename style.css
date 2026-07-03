@@ -345,34 +345,44 @@ font-weight: bold;
 @media (max-width:768px){
 
 header{
-flex-direction:column;
-text-align:center;
+
+justify-content: flex-start;
+display: flex;
 }
 
 .logo{
 width:100px;
 height:100px;
+margin-top: -10px;
+
+
 }
 
 .boy{
-font-size:32px;
+font-size:20px;
 padding-left:0;
+margin-top: -px;
+
 }
 
 .com{
 font-size:20px;
 margin:0;
 padding:0;
+margin-top: -10px;
+
 }
 
 .nav{
-flex-direction:column;
-align-items:center;
-gap:10px;
+
+
+gap:15px;
+display: flex;
+justify-content: center;
 }
 
 .nav a{
-font-size:18px;
+font-size:15px;
 }
 
 .contain{
