@@ -15,8 +15,8 @@
 
 .dropdown-content{
     display:none;
-    position:absolute;
-    background:#110000;
+    position:static;
+    background: aqua;
     min-width:220px;
     box-shadow:0 5px 10px rgba(0,0,0,.2);
     z-index:999;
@@ -27,10 +27,13 @@
     color:black;
     padding:10px;
     text-decoration:none;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .dropdown-content a:hover{
     background:#f1f1f1;
+    color: black;
 }
 
 .show{
@@ -47,6 +50,8 @@
   padding: 15px;
   display: flex;
   justify-content: space-around;
+   gap: 200px;
+   flex-wrap: nowrap;
 
 }
 
@@ -111,6 +116,7 @@ header {
   margin-top: -15px;
   font-size: 30px;
   display: flex;
+  
 
 }
 
@@ -118,6 +124,9 @@ header {
   font-size: 25px;
   text-decoration: none;
   color: white;
+  display: flex;
+ align-items: center;
+ gap: 15px;
 
 }
 
@@ -206,28 +215,6 @@ a:hover {
 
 }
 
-
-
-.na {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-direction: column;
-
-
-}
-
-
-
-.na a {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-
-}
-
-
-
 #Contact {
   margin-top: -50px;
   text-align: start;
@@ -292,33 +279,40 @@ a:hover {
 }
 .rt{
   padding-bottom: 70px;
+  margin-left: -100px;
 }
 
 
 .fg{
   font-size: 26px;
   margin-top: 50px;
-  margin-left: 20px;
+   margin-left: -80px;
   color:aqua;
    font-weight: bold
+ 
 }
 
 .vf{
     margin-right:0;
     font-size:20px;
-    margin-left:20px;
+  
     margin-top:-20px;
+     margin-left: -80px;
 }
 .we{
   font-size: 20px;
   margin-top: 20px;
-  margin-left: 20px;
+margin-left: 80px;
   color:aqua;
    font-weight: bold
+   
 }
 .na a{
-  font-size: 25px;
+  font-size: 20px;
+  color: white;
+   margin-left: -100px;
 }
+ 
 .na{
 display:flex;
 flex-direction:column;
