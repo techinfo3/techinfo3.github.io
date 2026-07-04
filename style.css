@@ -340,7 +340,7 @@ gap: 12px;
 }
   .boy {
     font-size: 15px;
-    padding-left: 0;
+    padding-left: 50px;
     margin-top: -px;
 
   }
@@ -350,6 +350,7 @@ gap: 12px;
     margin: 0;
     padding: 0;
     margin-top: -10px;
+    margin-left: 50px;
 
   }
 
