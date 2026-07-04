@@ -26,9 +26,7 @@
 </head>
 
 <body>
-
-
-
+    <div class="container">
 
     <header>
 
@@ -37,30 +35,32 @@
             <h1 class="boy"> TECH&nbsp;INFO3 </h1>
             <h2 class="com"> Tech Info.in</h2>
         </div>
+        <div style="width: 160px;"></div>
     </header>
 
 
     <nav class="nav">
-        <a href="index.html"><i  class="fa-solid fa-house"></i>Home</a>
+        <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
         <a href="about.html"><i class="fa-solid fa-circle-info"></i>About</a>
-         
+
 
         <div class="dropdown">
             <button class="dropbtn" onclick="toggleDropdown()">
                 <i class="fa-solid fa-link"></i> Important Links ▼
             </button>
-            
- </nav>
- 
 
-            <div id="importantLinks" class="dropdown-content">
-                <a href="Realme-P4x-5G-vs-Realme-P4-5G.html">Realme P4x 5G Vs Realme P4 5G</a>
-                <a href="Realme-Narzo-90-5G-vs-Realme-P4R-5G.html">Realme Narzo 90 5G Vs Realme P4R 5G</a>
-                <a href="Realme-P4x-5G-vs-Realme-Narzo-80Pro-5G.html">Realme P4x 5G Vs Realme Narzo 80 Pro 5G</a>
-                <a href="Realme-P4x-5G-vs-Realme-P4-5G.html">Realme P4x 5G Vs Realme P4 5G</a>
-            </div>
-        </div>
-    
+    </nav>
+
+
+    <div id="importantLinks" class="dropdown-content">
+        <a href="Realme-P4x-5G-vs-Realme-P4-5G.html">Realme P4x 5G Vs Realme P4 5G</a>
+        <a href="Realme-Narzo-90-5G-vs-Realme-P4R-5G.html">Realme Narzo 90 5G Vs Realme P4R 5G</a>
+        <a href="Realme-P4x-5G-vs-Realme-Narzo-80Pro-5G.html">Realme P4x 5G Vs Realme Narzo 80 Pro 5G</a>
+        <a href="Realme-P4x-5G-vs-Realme-P4-5G.html">Realme P4x 5G Vs Realme P4 5G</a>
+    </div>
+   
+
+
 
     <h2 class="hb"> Best Five Phone Under ₹15,000 ,₹20,000,₹25,000, ₹30,000 </h2>
     <div class="contain">
@@ -75,7 +75,7 @@
                 <li class="lu"> Best Five Phone Under ₹15,000 </li>
                 <li class="lu"> Best Five Phone Under ₹10,000 </li>
                 <li class="lu">Best Five Phone Under ₹20,000</li>
-                <li class="lu">Best Five Phone Under ₹25,000</a></li>
+                <li class="lu">Best Five Phone Under ₹25,000</li>
                 <li class="lu">Best Five Phone Under ₹30,000</li>
 
             </ol>
@@ -148,26 +148,27 @@
         </div>
 
 
-        <div class="right" id="Contact">
+        <div class="right">
             <h2 class="fg">Contact Us</h2>
-            <p class="vf">✉️ rohitkumarshukla7879@gmail.com</p>
+            <p class="vf"> ✉️ rohitkumarshukla7879@gmail.com</p>
             <p class="vf">📞 +91 9243399119</p>
             <p class="vf">📍 Singrauli, MP</p>
         </div>
 
     </footer>
     <script>
-function toggleDropdown() {
-    document.getElementById("importantLinks").classList.toggle("show");
-}
+        function toggleDropdown() {
+            document.getElementById("importantLinks").classList.toggle("show");
+        }
 
-window.onclick = function(e){
-    if(!e.target.matches('.dropbtn')){
-        var menu=document.getElementById("importantLinks");
-        menu.classList.remove("show");
-    }
-}
-</script>
+        window.onclick = function (e) {
+            if (!e.target.matches('.dropbtn')) {
+                var menu = document.getElementById("importantLinks");
+                menu.classList.remove("show");
+            }
+        }
+    </script>
+    </div>
 </body>
 
 </html>

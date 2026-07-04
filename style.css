@@ -57,9 +57,9 @@
 
 
 body {
-  max-width: 1300px;
+ 
   overflow-x: hidden;
-  margin: auto;
+  margin: 0;
   padding: 0;
   line-height: 1.7;
 }
@@ -68,57 +68,52 @@ header {
   display: flex;
   background-color: aqua;
   align-items: center;
+  padding:  20px;
 
 }
 
 .logo {
   border-radius: 60%;
-  width: 180px;
-  height: 170px;
+  width: 160px;
+  height: 160px;
   padding: 20px;
   margin: 5px;
 }
 
 .boy {
   color: rgb(238, 8, 8);
-  padding: 0;
-  margin: 0;
-  flex: 1;
-
-  text-align: center;
   font-size: 60px;
-  margin-top: 5px;
-  padding-left: 190px;
-
+  margin: 0;
+  line-height: 1;
 }
 
+
+ 
+ 
+  
+
+
 .Tbox {
+ flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+  
+ 
+  
 }
 
 .com {
   color: black;
-
-  position: relative;
-  font-size: 40px;
-  margin-top: -30px;
-  text-align: center;
-  margin-left:300px;
-  padding-right: 100px;
+ font-size: 28px;
+margin-top: 10px;
+margin: 5px 0 0 0;
+line-height: 1;
+ 
 }
 
-.foot {
-  background-color: rgb(1, 11, 2);
-  color: white;
-  padding: 5px;
-  margin-top: -15px;
-  font-size: 30px;
-  display: flex;
-  
 
-}
 
 .nav a {
   font-size: 25px;
@@ -131,8 +126,9 @@ header {
 }
 
 .container {
-  display: flex;
-  margin-top: 5px;
+  width: 100%;
+  margin:auto;
+max-width: 1300px;
 
 
 
@@ -167,7 +163,7 @@ header {
   font-size: 30px;
   margin: auto;
   padding: 0;
-  max-width: 1300px;
+  
 
 }
 
@@ -209,7 +205,7 @@ a:hover {
 .contain {
 
   display: flex;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   padding-top: 10px;
 
 
@@ -249,23 +245,26 @@ a:hover {
 }
 .foot{
     display:flex;
+    gap: 40px;
     justify-content:space-between;
     align-items:flex-start;
-    padding:-20px;
+    padding:25px;
+  
     background-color:rgb(1, 11, 2);
-    margin-top:-40px;
+  
 }
 
 .left{
     flex:1;
+    text-align: left;
 }
 
 .middle{
-    flex:1;
+  flex: 1;
     text-align:center;
    display: flex;
    flex-direction: column;
-   margin-top: -28px;
+  
    color:aqua;
    font-weight: bold;
   
@@ -273,93 +272,94 @@ a:hover {
 
 .right{
     flex:1;
+    display: flex;
     text-align:right;
+    padding-right: 80px;
+    flex-direction: column;
+    padding-bottom: 0px;
    
 
 }
 .rt{
-  padding-bottom: 70px;
-  margin-left: -100px;
+font-size: 20px;
 }
 
 
 .fg{
-  font-size: 26px;
-  margin-top: 50px;
-   margin-left: -80px;
+  font-size: 20px;
+
+  text-align: center;
   color:aqua;
-   font-weight: bold
+   font-weight: bold;
+   
+margin-bottom: 15px;
  
 }
 
 .vf{
-    margin-right:0;
-    font-size:20px;
-  
-    margin-top:-20px;
-     margin-left: -80px;
+   margin: 8px 0;
+    font-size:18px;
+   color: white;
+
 }
 .we{
   font-size: 20px;
-  margin-top: 20px;
-margin-left: 80px;
+
+
   color:aqua;
    font-weight: bold
+   
+
    
 }
 .na a{
   font-size: 20px;
   color: white;
-   margin-left: -100px;
+   
 }
  
 .na{
-display:flex;
+display: flex;
 flex-direction:column;
-justify-content: flex-start;
 gap: 12px;
- margin-top: -100px;
+
+
+
 }
 @media (max-width:768px) {
 
   header {
 
-    justify-content: flex-start;
-    display: flex;
+   
+    flex-direction: column;
   }
 
   .logo {
-    width: 80px;
-    height: 80px;
-    margin-top: -10px;
+    width: 70px;
+    height: 70px;
+    
 
 
   }
-.foot{
-  flex-wrap: nowrap;
-}
+
   .boy {
-    font-size: 15px;
-    padding-left: 50px;
-    margin-top: -px;
+    font-size: 22px;
+   
 
   }
+
 
   .com {
-    font-size: 10px;
-    margin: 0;
-    padding: 0;
-    margin-top: -10px;
-    margin-left: 50px;
+    font-size: 16px;
+    
 
   }
 
   .nav {
 
-
-    gap: 15px;
-    display: flex;
-    justify-content: center;
+flex-direction: column;
+    gap: 10px;
+  display: flex;
   }
 
   .nav a {
@@ -387,26 +387,33 @@ gap: 12px;
   }
 
   .foot {
-    font-size: 10px;
-    flex-wrap: wrap;
+    
+  text-align: center ;
+    flex-direction: column;
+    display: flex;
   }
 
   .vf {
     text-align: center;
-    margin-left: -50px;
+  
     font-size: 8px;
+
+
     
   }
-  .na a{
-    font-size: 10px;
-    color: white;
-     margin-left: 0px;
-  }
-  .we{
-    font-size: 8px;
-    margin-top: 20px;
-}
 
+  .right{
+    display: flex;
+    text-align: center;
+    
+  }
+  
+ .left{
+  text-align: center;
+ }
+.middle{
+  text-align: center;
+}
 .dropdown{
     width:100%;
 }
