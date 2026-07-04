@@ -335,7 +335,9 @@ gap: 12px;
 
 
   }
-
+.foot{
+  flex-wrap: nowrap;
+}
   .boy {
     font-size: 20px;
     padding-left: 0;
@@ -384,13 +386,23 @@ gap: 12px;
   }
 
   .foot {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .vf {
     text-align: center;
     margin-left: 0;
+    font-size: 10px;
+    
   }
+  .na a{
+    font-size: 10px;
+    color: white;
+     margin-left: 0px;
+  }
+  .we{
+    font-size: 8px;
+    margin-top: 20px;
 }
 
 .dropdown{
@@ -408,3 +420,4 @@ gap: 12px;
 }
 
 
+}
