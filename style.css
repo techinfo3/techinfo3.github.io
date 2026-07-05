@@ -40,10 +40,6 @@
     display:block;
 }
 
-
-
-
-
 .nav {
   background-color: rgb(11, 1, 1);
   margin: 0px;
@@ -68,7 +64,7 @@ header {
   display: flex;
   background-color: aqua;
   align-items: center;
-  padding:  20px;
+  padding:  0px;
 
 }
 
@@ -129,10 +125,6 @@ line-height: 1;
   width: 100%;
   margin:auto;
 max-width: 1300px;
-
-
-
-
 }
 
 .containe {
@@ -326,7 +318,7 @@ gap: 12px;
 
   header {
 
-   
+  
     flex-direction: row;
   }
 
@@ -360,7 +352,7 @@ flex-direction: row;
   }
 
   .nav a {
-    font-size: 10px;
+    font-size: 18px;
   }
 
   .contain {
@@ -376,7 +368,7 @@ flex-direction: row;
   }
 
   .hb {
-    font-size: 22px;
+    font-size: 15px;
   }
 
   #Contact {
