@@ -465,6 +465,10 @@ flex-direction: row;
   display: flex;
   
   }
+  .phonety{
+    width: 100%;
+    overflow-x: auto;
+  }
 
 .nav a {
     font-size: 15px;
