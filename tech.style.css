@@ -136,6 +136,7 @@ table{
 table th{
     background:#007bff;
     color:white;
+    font-size: 18px;
 }
 
 table th,
@@ -155,11 +156,15 @@ h2{
     color:#222;
 }
  
-    
-   
+.lu{
+  font-size: 25px;
+font-weight: bold;}
+.c{
+  color: #007bff;
+  text-decoration: underline;
+}
 
- 
-.verdict{
+  .verdict{
     background:#eef7ff;
     border-left:5px solid #007bff;
     padding:15px;
@@ -171,12 +176,26 @@ h2{
   padding: 15px;
   display: flex;
   justify-content: space-around;
-   gap: 200px;
+   gap: 100px;
    flex-wrap: nowrap;
 
 }
+.bx {
+  flex: 1;
+  border: 1px solid rgb(255, 249, 249);
+  margin-top: 0px;
+ box-shadow: 0 0px 40px rgba(252, 2, 2, 0.15);
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
   .le{
     font-size: 22px;
+  }
+  .bx a{
+    color: black;
+    text-decoration: none;
+    font-size: 18ftabpx;
   }
   
   .l{
@@ -186,7 +205,7 @@ h2{
     margin-bottom: 10px;
   }
   .phonety{
-   border: 5px solid rgb(0, 0, 0);
+  
    margin-left: 30px;
     
    
@@ -227,6 +246,9 @@ margin: 5px 0 0 0;
 line-height: 1;
  
 }
+.q{
+  font-size: 25px;
+}
 
  header {
   display: flex;
@@ -236,7 +258,7 @@ line-height: 1;
 
 }
  a:hover{
-  color: rgb(255, 0, 0);
+  color: rgb(42, 6, 247);
   text-decoration: underline;
 }
 .logo {
@@ -366,10 +388,11 @@ color:aqua;
 display: flex;
 flex-direction:column;
 gap: 12px;
-
-
-
 }
+.jl{
+ font-size: 19px;
+}
+
 @media(max-width:768px){
 
     .phone-section{
@@ -416,6 +439,9 @@ header {
     font-size: 15px;
 
   }
+  .lu{
+  font-size: 15px;
+}
   
   .we{
     font-size: 15px;
@@ -437,6 +463,9 @@ header {
    margin-top: -40px;
  
    
+   }
+   .q{
+    font-size: 15px;
    }
  
  .left{

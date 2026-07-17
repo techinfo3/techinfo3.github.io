@@ -83,10 +83,12 @@ header {
   line-height: 1;
 }
 
-
- 
- 
-  
+.o{
+  font-size: 25px;
+}
+.w{
+  font-size: 25px;
+}
 
 
 .Tbox {
@@ -109,7 +111,108 @@ line-height: 1;
  
 }
 
+.budgetco{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.icon{
+  height: 77px;
+  width: 77px;
+  background-color: rgb(208, 243, 9);
+  border-radius: 90%;
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+ 
+}
 
+.i{
+  font-size: 20px;
+}
+.cardt{
+ margin-top: -40px;
+}
+.card{
+ 
+width: 350px;
+background: #0bfec1;
+  border-radius:1px;
+  border: 1px solid salmon;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,.15);
+  text-align: center;
+  font-size: 25px;
+}
+
+.comparison-card{
+    width:270px;
+    padding:20px;
+    border:1px solid #e5e5e5;
+    border-radius:40px;
+    background:#f4f7f7;
+    box-shadow:0 5px 5px ;
+    margin-bottom:10px;
+    transition: .5s;
+}
+.comparison-card :hover{
+  transform: translateY(-6px);
+}
+
+.title{
+    display:flex;
+    align-items:flex-start;
+    gap:15px;
+    
+}
+.aw{
+  font-size: 20px;
+}
+
+.er{
+  display: flex;
+  gap: 20px;
+}
+
+.comparison-icon{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:#eaf3ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-shrink:0;
+}
+
+.comparison-icon i{
+    color:#2563eb;
+    font-size:28px;
+}
+
+.phone-name h3{
+    margin:0;
+    font-size:22px;
+    line-height:1.3;
+}
+
+.phone-name span{
+    display:block;
+    margin:5px 0;
+    font-weight:bold;
+    color:#0c0000;
+    font-size: 30px;
+}
+
+.comparison-card p{
+    margin-top:18px;
+    font-size:20px;
+    line-height:1.6;
+    color:#060101;
+}
 
 .nav a {
   font-size: 25px;
@@ -117,7 +220,7 @@ line-height: 1;
   color: white;
   display: flex;
  align-items: center;
- gap: 15px;
+ gap: 2px;
 
 }
 
@@ -159,21 +262,24 @@ max-width: 1300px;
 
 }
 
+
 .lu {
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(3, 3, 244);
-  padding: 10px;
+  padding: 1px;
+  
 }
 
 a {
-  color: blue;
+  color: rgb(1, 1, 14);
   text-decoration: none;
+  
 
 }
 
 a:hover {
   color: rgb(255, 0, 0);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .bold {
@@ -186,12 +292,56 @@ a:hover {
 
 .bx {
   flex: 1;
-  border: 5px solid red;
-  padding: 0%;
-
-
+  border: 1px solid rgb(255, 249, 249);
+  margin-top: 0px;
+ box-shadow: 0 0px 40px rgba(252, 2, 2, 0.15);
   box-sizing: border-box;
   margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.di{
+  display: flex;
+  flex-direction: column;
+font-size: 18px;
+  background-color: #f8faf9;
+  border-radius: 10px;
+}
+.ui{
+  border: 1px solid rgb(31, 6, 255);
+  box-shadow: 0 5px 10px black;
+  border-radius:0px;
+  margin-top: 0;
+  width: 350px;
+  height: 250px;
+  text-align: center;
+  background-color: #e6f1c8;
+
+}
+.red{
+  background-color: rgb(255, 255, 0);
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 5px;
+}
+.blue{
+  background-color: blue;
+  color: #e5e5e5;
+  font-size: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.aj{
+  background-color: rgba(164, 10, 247, 0.657);
+  
+}
+.aq{
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  
 }
 
 .contain {
@@ -434,4 +584,24 @@ flex-direction: row;
 }
 
 
+
+
+.budget{
+  overflow-x: auto;
 }
+.er{
+  overflow-x: auto;
+}
+.aq{
+  overflow-y: auto;
+  overflow-x: auto;
+}
+.di{
+  font-size: 15px;
+}
+.ui{
+ 
+  height: 350px;
+}
+}
+  
