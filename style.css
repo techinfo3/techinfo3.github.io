@@ -115,15 +115,21 @@ line-height: 1;
 
 .budgetco{
   display: flex;
-  gap: 10px;
+  gap:4px;
   margin-top: 20px;
   flex-direction: row;
 }
 .budgetco1{
   display: flex;
-  gap: 10px;
+  gap: 4px;
   margin-top: 20px;
   flex-direction: row;
+}
+.nj{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+
 }
 .icon{
   height: 77px;
@@ -147,7 +153,8 @@ line-height: 1;
 }
 .card{
  
-width: 350px;
+width: 210px;
+height: 210px;
 background: #0bfec1;
   border-radius:1px;
   border: 1px solid salmon;
@@ -155,6 +162,8 @@ background: #0bfec1;
   box-shadow: 0 3px 10px rgba(0,0,0,.15);
   text-align: center;
   font-size: 25px;
+  max-width: 100%;
+  
 }
 
 .comparison-card{
@@ -166,6 +175,12 @@ background: #0bfec1;
     box-shadow:0 5px 5px ;
     margin-bottom:10px;
     transition: .5s;
+    
+}
+.ty{
+  display: flex;
+  flex-direction: row;
+
 }
 .comparison-card :hover{
   transform: translateY(-6px);
@@ -174,7 +189,8 @@ background: #0bfec1;
 .title{
     display:flex;
     align-items:flex-start;
-    gap:15px;
+    gap:px;
+    
     
 }
 .aw{
@@ -183,7 +199,7 @@ background: #0bfec1;
 
 .er{
   display: flex;
-  gap: 20px;
+  gap: 5px;
   
 }
 
