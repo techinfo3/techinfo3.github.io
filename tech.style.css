@@ -200,7 +200,8 @@ font-weight: bold;}
   .bx a{
     color: black;
     text-decoration: none;
-    font-size: 18ftabpx;
+    font-size: 18px;
+    width: 100%;
   }
   
   .l{
@@ -460,6 +461,7 @@ header {
   text-align: center ;
   flex-direction: column;
     display: flex;
+    width: 100%;
   }
 .fg{
   text-align: start;
@@ -473,7 +475,9 @@ header {
   .lu{
   font-size: 15px;
 }
-  
+  .fr{
+    width: 100%;
+  }
   .we{
     font-size: 15px;
     margin-top: -30px;
@@ -497,6 +501,7 @@ header {
    }
    .q{
     font-size: 15px;
+    width: 100%;
    }
  
  .left{
