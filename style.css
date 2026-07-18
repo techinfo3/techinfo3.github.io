@@ -46,7 +46,8 @@
   padding: 15px;
   display: flex;
   justify-content: space-around;
-   gap: 200px;
+   gap: 50px;
+   
    flex-wrap: nowrap;
 
 }
@@ -175,6 +176,7 @@ background: #0bfec1;
 .er{
   display: flex;
   gap: 20px;
+  
 }
 
 .comparison-icon{
@@ -480,6 +482,79 @@ gap: 12px;
 
   }
 
+
+
+.cardt{
+ margin-top: -40px;
+}
+
+.comparison-card{
+    width:180px;
+    height: 180px;
+    padding:20px;
+    border:1px solid #e5e5e5;
+    border-radius:40px;
+    background:#f4f7f7;
+    box-shadow:0 5px 5px ;
+    margin-bottom:10px;
+    transition: .5s;
+}
+.comparison-card :hover{
+  transform: translateY(-6px);
+}
+
+.title{
+    display:flex;
+    align-items:flex-start;
+    gap:0px;
+    
+}
+.aw{
+  font-size: 15px;
+}
+
+.er{
+  display: flex;
+  gap: 10px;
+  
+}
+
+.comparison-icon{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:#eaf3ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-shrink:0;
+}
+
+.comparison-icon i{
+    color:#2563eb;
+    font-size:20px;
+}
+
+.phone-name h3{
+   
+    font-size:12px;
+    line-height:1.3;
+}
+
+.phone-name span{
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+.comparison-card p{
+    margin-top:1px;
+    font-size:12px;
+    line-height:1.6;
+   
+}
+.o{
+  font-size: 15px;
+}
   .boy {
     font-size: 22px;
    
@@ -516,13 +591,37 @@ flex-direction: column;
   .lu {
     font-size: 18px;
   }
-
+ .w{
+  font-size: 15px;
+ }
   .hb {
     font-size: 15px;
   }
 
   #Contact {
     text-align: center;
+  }
+  .er{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   overflow-x: auto;
+   
+  }
+  .budgetco{
+    display: flex;
+    flex-direction: row;
+  }
+    .budgetco1{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 10px;
+  }
+    .budgetco2{
+    display: flex;
+    flex-direction: row;
+     margin-top: 10px;
   }
 
   .foot {
@@ -549,6 +648,15 @@ flex-direction: column;
     display: flex;
     flex-direction: row;
   
+  }
+  .card{
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+  }
+  .icon{
+    width: 60px;
+    height: 60px;
   }
  
   .na a{
@@ -589,9 +697,7 @@ flex-direction: column;
 .budget{
   overflow-x: auto;
 }
-.er{
-  overflow-x: auto;
-}
+
 .aq{
   overflow-y: auto;
   overflow-x: auto;
