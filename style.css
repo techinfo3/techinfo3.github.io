@@ -86,6 +86,7 @@ header {
 
 .o{
   font-size: 25px;
+  
 }
 .w{
   font-size: 25px;
@@ -485,7 +486,7 @@ gap: 12px;
 
 
 .cardt{
- margin-top: -40px;
+ margin-top: -30px;
 }
 
 .comparison-card{
@@ -520,8 +521,8 @@ gap: 12px;
 }
 
 .comparison-icon{
-    width:55px;
-    height:55px;
+    width:30px;
+    height:30px;
     border-radius:50%;
     background:#eaf3ff;
     display:flex;
@@ -543,7 +544,7 @@ gap: 12px;
 
 .phone-name span{
     margin-top: 0px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .comparison-card p{
@@ -553,7 +554,10 @@ gap: 12px;
    
 }
 .o{
-  font-size: 15px;
+  font-size: 12px;
+  margin-left: 10px;
+ 
+  margin-right: 10px;
 }
   .boy {
     font-size: 22px;
@@ -570,14 +574,15 @@ gap: 12px;
 
   .nav {
 
-flex-direction: column;
-    gap: 10px;
+flex-direction:row;
+    gap: 5px;
   display: flex;
+  justify-content: space-around;
   
   }
 
   .nav a {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .contain {
@@ -650,13 +655,13 @@ flex-direction: column;
   
   }
   .card{
-    width: 150px;
-    height: 150px;
-    font-size: 20px;
+    width: 120px;
+    height: 120px;
+    font-size: 15px;
   }
   .icon{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
  
   .na a{
@@ -692,10 +697,25 @@ flex-direction: column;
 }
 
 
-
-
+.budgetco{
+  display: flex;
+ margin-left: 50px;
+}
+.budgetco1{
+  display: flex;
+ margin-left: 50px;
+}
+.budgetco{
+  display: flex;
+ margin-left: 50px;
+}
+.navt{
+  font-size: 12px;
+ 
+}
 .budget{
   overflow-x: auto;
+  
 }
 
 .aq{
